@@ -4,12 +4,12 @@ public class number {
 
     public static void main(String[] args) {
 
-        System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö): ");
+        System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€): ");
         Scanner s = new Scanner(System.in);
         int num = s.nextInt();
         int a,b = 0;
 
-        Random random = new Random();
+        Random random = new Random(); //ëœë¤
         for (int i=0;i<=9;i++) {
             a = random.nextInt(50)+1;
             System.out.print(a+" ");
@@ -19,10 +19,10 @@ public class number {
         }
 
         if(b==1){
-            System.out.println("\n´çÃ·! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ÀÖ½À´Ï´Ù.");
+            System.out.println("\në‹¹ì²¨! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ìˆìŠµë‹ˆë‹¤.");
         }
         else {
-            System.out.println("\n¾Æ½±±º¿ä! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ¾ø½À´Ï´Ù.");
+            System.out.println("\nì•„ì‰½êµ°ìš”! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ì—†ìŠµë‹ˆë‹¤.");
         }
 
 
